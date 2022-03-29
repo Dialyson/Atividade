@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=scr, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{color: rgb(255, 0, 0);}
+    </style>
+</head>
+<body>
+    <h1>
+        Atividade da Av1:
+    </h1>
+    <p>Um carro foi abastecido com 50 litros de gasolina, percorrendo aproximadamente 460 Km. Qual o consumo médio do carro?</p>
+    <button onclick="alertar()">Resultado</button>
+    <script>
+
+        
+        var x = 50
+        y = 460
+
+        media = 460/50
+        
+
+        function alertar(){
+        alert("A média gasta é: "+ media)
+    }
+    </script>
+</body>
+</html>
