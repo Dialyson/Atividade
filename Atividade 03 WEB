@@ -36,11 +36,11 @@
             }
             
             if (num <= 1045.00){
-                total = parseFloat(num) - (parseFloat(num) * 0.08) + (parseFloat(num)*aumento);
+                total = parseFloat(num) - (parseFloat(num) * 0.075) + (parseFloat(num)*aumento);
             } else if(num>1045.01 && num<=2080.60){                
-                total = parseFloat(num) - (parseFloat(num) * 0.06) + (parseFloat(num)*aumento);
+                total = parseFloat(num) - (parseFloat(num) * 0.09) + (parseFloat(num)*aumento);
             } else if(num>2080.60 && num<=3134.40){                
-                total = parseFloat(num) - (parseFloat(num) * 0.02) + (parseFloat(num)*aumento);
+                total = parseFloat(num) - (parseFloat(num) * 0.12) + (parseFloat(num)*aumento);
             }else{
               alert("Informe um valor que esteja na tabela!")
           
